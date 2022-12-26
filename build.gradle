@@ -7,20 +7,6 @@ repositories {
     mavenCentral()
 }
 
-tasks.withType(JavaCompile) {
-    options.encoding = 'UTF-8'
-}
-
-dependencies {
-    testImplementation (
-
-            "com.github.javafaker:javafaker:1.0.2",
-            "com.codeborne:selenide:6.9.0",
-            "io.qameta.allure:allure-selenide:2.19.0",
-            "org.junit.jupiter:junit-jupiter:5.9.1",
-            "org.slf4j:slf4j-simple:1.7.32"
-    )
-}
 allure {
     report {
         version.set("2.19.0")
@@ -35,6 +21,21 @@ allure {
     }
 }
 
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+    testImplementation (
+            "com.github.javafaker:javafaker:1.0.2",
+            'com.codeborne:selenide:6.10.3',
+            'io.qameta.allure:allure-selenide:2.20.0',
+            "org.junit.jupiter:junit-jupiter:5.9.1",
+            'org.slf4j:slf4j-simple:2.0.5',
+            'io.github.bonigarcia:webdrivermanager:5.3.1'
+    )
+}
+
 tasks.withType(Test) {
     useJUnitPlatform()
 
@@ -46,12 +47,18 @@ tasks.withType(Test) {
     }
 }
 
+task smoke_tests(type: Test) {
+    useJUnitPlatform {
+        includeTags("smoke")
+    }
+}
+
 help {
     doFirst {
         println ""
         println "************************************************************************ "
         println "***                                                                  *** "
-        println "*** Welcome to https://github.com/Malinatse1/demoga-!            *** "
+        println "*** Welcome to https://github.com/qa-guru/demoqa-test-16!            *** "
         println "***                                                                  *** "
         println "*** ./gradlew help                                                   *** "
         println "***                                                                  *** "
