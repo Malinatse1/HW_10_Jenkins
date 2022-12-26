@@ -22,17 +22,17 @@ tasks.withType(JavaCompile) {
 }
 
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {
     testImplementation (
-            'com.github.javafaker:javafaker:1.0.2',
+            "com.github.javafaker:javafaker:1.0.2",
             'com.codeborne:selenide:6.10.3',
             'io.qameta.allure:allure-selenide:2.20.0',
-            'org.junit.jupiter:junit-jupiter:5.9.1',
+            "org.junit.jupiter:junit-jupiter:5.9.1",
             'org.slf4j:slf4j-simple:2.0.5',
-            'io.github.bonigarcia:webdrivermanager:5.3.1'
+            "io.github.bonigarcia:webdrivermanager:5.3.1"
     )
 }
 
