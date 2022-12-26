@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cba7021e-9858-4037-88cf-604c1bb2eb18" name="Changes" comment="Added Allure">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SimpleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,7 @@
       <recent name="C:\QA GURU\HW_10_Jenkins\src\test\java\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SimpleTest.successfulRegistrationTest">
+  <component name="RunManager" selected="Gradle.RegistrationWithTestDataTests.fillFormTest (1)">
     <configuration name="HW_10_Jenkins [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -197,9 +196,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RegistrationWithTestDataTests.fillFormTest (1)" />
         <item itemvalue="Gradle.SimpleTest.successfulRegistrationTest" />
         <item itemvalue="Gradle.HW_10_Jenkins [allureServe]" />
-        <item itemvalue="Gradle.RegistrationWithTestDataTests.fillFormTest (1)" />
         <item itemvalue="Gradle.HW_10_Jenkins [allureReport]" />
         <item itemvalue="Gradle.HW_10_Jenkins [test]" />
       </list>
@@ -249,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672068101692</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Allure">
+      <created>1672068920369</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672068920369</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
