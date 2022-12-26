@@ -21,6 +21,10 @@ tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
 
+repositories {
+    jcenter()
+}
+
 dependencies {
     testImplementation (
             'com.github.javafaker:javafaker:1.0.2',
