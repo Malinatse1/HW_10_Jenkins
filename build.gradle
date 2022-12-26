@@ -3,13 +3,12 @@ plugins {
     id 'io.qameta.allure' version '2.10.0'
 }
 
-repositories {
-    mavenCentral()
-}
+group 'qa.demo'
+version '1.0-SNAPSHOT'
 
 allure {
     report {
-        version.set("2.19.0")
+        version.set("2.20.0")
     }
     adapter { // отвечает за появление папочки build/allure-results
         aspectjWeaver.set(true) //обработка аннотации @Step
@@ -21,47 +20,25 @@ allure {
     }
 }
 
+repositories {
+    mavenCentral()
+}
+
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
 
 dependencies {
-    testImplementation (
+    testImplementation(
+            'com.codeborne:selenide:6.10.3',
             "com.github.javafaker:javafaker:1.0.2",
-            "com.codeborne:selenide:6.9.0",
-            "io.qameta.allure:allure-selenide:2.19.0",
             "org.junit.jupiter:junit-jupiter:5.9.1",
-            "org.slf4j:slf4j-simple:1.7.32"
+            "io.qameta.allure:allure-selenide:2.20.0",
+            "org.aspectj:aspectjweaver:1.9.9.1",
+            'org.slf4j:slf4j-simple:2.0.5'
     )
 }
 
-tasks.withType(Test) {
+test {
     useJUnitPlatform()
-
-    testLogging {
-        lifecycle {
-            events "started", "skipped", "failed", "standard_error", "standard_out"
-            exceptionFormat "short"
-        }
-    }
-}
-
-task smoke_tests(type: Test) {
-    useJUnitPlatform {
-        includeTags("smoke")
-    }
-}
-
-help {
-    doFirst {
-        println ""
-        println "************************************************************************ "
-        println "***                                                                  *** "
-        println "*** Welcome to https://github.com/qa-guru/demoqa-test-16!            *** "
-        println "***                                                                  *** "
-        println "*** ./gradlew help                                                   *** "
-        println "***                                                                  *** "
-        println "************************************************************************ "
-        println ""
-    }
 }
