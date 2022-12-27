@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cba7021e-9858-4037-88cf-604c1bb2eb18" name="Changes" comment="add new gradle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationWithTestDataTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationWithTestDataTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,16 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="verification" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HW_10_Jenkins" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HW_10_Jenkins" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -68,22 +78,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable&quot;: &quot;ALL&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\QA GURU\HW_10_Jenkins\src\test\resources" />
       <recent name="C:\QA GURU\HW_10_Jenkins\src\test\java\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RegistrationWithTestDataTests.fillFormTest (1)">
+  <component name="RunManager" selected="Gradle.HW_10_Jenkins [allureServe]">
     <configuration name="HW_10_Jenkins [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -195,9 +205,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HW_10_Jenkins [allureServe]" />
         <item itemvalue="Gradle.RegistrationWithTestDataTests.fillFormTest (1)" />
         <item itemvalue="Gradle.SimpleTest.successfulRegistrationTest" />
-        <item itemvalue="Gradle.HW_10_Jenkins [allureServe]" />
         <item itemvalue="Gradle.HW_10_Jenkins [allureReport]" />
         <item itemvalue="Gradle.HW_10_Jenkins [test]" />
       </list>
@@ -289,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672073981515</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add new gradle">
+      <created>1672074338923</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672074338923</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
