@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cba7021e-9858-4037-88cf-604c1bb2eb18" name="Changes" comment="add new gradle">
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationWithTestDataTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationWithTestDataTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +93,7 @@
       <recent name="C:\QA GURU\HW_10_Jenkins\src\test\java\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HW_10_Jenkins [allureServe]">
+  <component name="RunManager" selected="Gradle.SimpleTest.successfulRegistrationTest (1)">
     <configuration name="HW_10_Jenkins [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -182,7 +180,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SimpleTest.successfulRegistrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SimpleTest.successfulRegistrationTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -207,9 +205,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SimpleTest.successfulRegistrationTest (1)" />
         <item itemvalue="Gradle.HW_10_Jenkins [allureServe]" />
         <item itemvalue="Gradle.RegistrationWithTestDataTests.fillFormTest (1)" />
-        <item itemvalue="Gradle.SimpleTest.successfulRegistrationTest" />
         <item itemvalue="Gradle.HW_10_Jenkins [allureReport]" />
         <item itemvalue="Gradle.HW_10_Jenkins [test]" />
       </list>
